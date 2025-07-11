@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.raleway{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body{
+    color: rgba(37, 36, 50, 1); 
+    background-color: rgb(242, 249, 250);
+}
+.button{
+    background-color: rgba(78, 71, 255, 1);
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+    border-style: none ;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgba(188, 71, 255, 1);
+}
+
+/* Header section style */
+header{
+    padding: 50px 100px;
+    background-image: url(Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: red;
+}
+nav{
+    display: flex;
+    justify-content: space-between; 
+}
+nav h1{
+    font-weight: 800px;
+    color: rgba(78, 71, 255, 1);
+}
+nav a{
+    background-color: rgba(188, 71, 255, 1); 
+    color: white;
+    border-radius: 10px;
+    border-style: none  ;
+    padding: 10px 30px 5px;
+    text-decoration: none;
+}
+
+/* Banner section style */
+.banner{
+    text-align: center;
+    padding: 150px 0px 80px;
+  
+}
+.banner button{
+    margin-top:30px ;
+}
+
+/* Action  section style */
+.action{
+    display: flex;
+    padding: 20px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.action img{
+    border-radius: 50px;
+}
+.action p{
+    padding: 20px 0px;
+    color: rgba(37, 36, 50, 0.5);
+}
+
+/* Productive  section style */
+.productive{
+        margin: 50px 100px;
+        background-color: rgba(78, 71, 255, 0.1);
+        text-align: center;
+        padding: 50px;
+        border-radius: 20px ;
+}
+.counter{
+    display: flex;
+    justify-content: space-around;
+    font-family: "Inter", sans-serif;
+    padding-top: 40px;
+}
+.counter h1{
+    font-size: 60px;
+    font-weight: bold;
+    color:rgba(78, 71, 255, 1) ;
+}
+
+/* Touch  section style */
+.touch{
+    display: flex;
+    padding: 20px 100px 80px;
+    align-items: center;
+    color: black;
+
+}
+.touch .form{
+    margin-left: 150px;
+    font-weight: bold;
+}
+.touch h1{
+    font-size: 90px;
+}
+.form input{ 
+    padding: 15px 300px 15px 15px;
+    background-color: rgb(255, 255, 255, 1);
+    border-radius: 10px;
+    border: 1px solid rgb(188, 189, 190);
+}
+.item .message{
+    margin-bottom:30px;
+    padding-bottom: 100px;
+}
+
+/* Footer  section style */
+footer{
+        text-align: center;
+        color: rgba(137, 135, 161, 1);
+        padding: 100px;
+        background-color: rgb(255, 255, 255, 1) ;
+}
+footer h1{
+    font-size: 80px;
+    color: rgba(78, 71, 255, 1);
+}
+footer p{
+    padding: 20px ;
+}
+
+menu a{
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+    padding: 10px 20px ;
+}
