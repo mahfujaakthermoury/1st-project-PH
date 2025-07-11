@@ -119,6 +119,14 @@ nav a{
     padding-bottom: 100px;
 }
 
+/* Feedback  section style */
+.feedback h1{
+    text-align: center;
+}
+.client{
+    display: flex;
+    justify-content: space-around;
+}
 /* Footer  section style */
 footer{
         text-align: center;
