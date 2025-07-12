@@ -21,6 +21,8 @@ body{
 }
 a:hover{
     background-color: rgba(188, 71, 255, 1);
+    padding: 12px 35px;
+    transition: 1s;
 }
 
 /* Header section style */
