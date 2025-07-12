@@ -25,7 +25,7 @@ a:hover{
 
 /* Header section style */
 header{
-    padding: 50px 100px;
+    padding: 50px 120px;
     background-image: url(image/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,7 +61,7 @@ nav a{
 /* Action  section style */
 .action{
     display: flex;
-    padding: 20px 100px;
+    padding: 20px 120px;
     justify-content: space-between;
     align-items: center;
 }
@@ -75,7 +75,7 @@ nav a{
 
 /* Productive  section style */
 .productive{
-        margin: 50px 100px;
+        margin: 50px 120px;
         background-color: rgba(78, 71, 255, 0.1);
         text-align: center;
         padding: 50px;
@@ -96,17 +96,17 @@ nav a{
 /* Touch  section style */
 .touch{
     display: flex;
-    padding: 20px 100px 80px;
+    padding: 20px 120px 80px;
     align-items: center;
     color: black;
 
 }
 .touch .form{
-    margin-left: 150px;
+    margin-left: 200px;
     font-weight: bold;
 }
 .touch h1{
-    font-size: 90px;
+    font-size: 80px;
 }
 .form input{ 
     padding: 15px 300px 15px 15px;
@@ -122,16 +122,36 @@ nav a{
 /* Feedback  section style */
 .feedback h1{
     text-align: center;
+    padding: 50px;
 }
-.client{
+.feedback-part{
     display: flex;
-    justify-content: space-around;
+    width: 80%;
+    padding: 0px 120px 50px;
 }
+#client{
+    border: 1px solid rgb(240, 238, 238);
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 25px;
+    background-color: white;
+}
+#client h3, .person {
+    padding: 15px 0px;
+}
+.person{
+    display: flex;
+}
+.person img{
+    border-radius: 50%;
+    padding-right: 10px;
+}
+
 /* Footer  section style */
 footer{
         text-align: center;
         color: rgba(137, 135, 161, 1);
-        padding: 80px;
+        padding: 30px;
         background-color: rgb(255, 255, 255, 1) ;
 }
 footer h1{
@@ -139,9 +159,8 @@ footer h1{
     color: rgba(78, 71, 255, 1);
 }
 footer p{
-    padding: 20px ;
+    padding-bottom: 20px ;
 }
-
 menu a{
     text-decoration: none;
     color: rgba(137, 135, 161, 1);
